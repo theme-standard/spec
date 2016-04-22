@@ -4,7 +4,7 @@ Theme is a [JSON](http://www.json.org/) that defines the look and related functi
 
 ### Reserved Properties
 
-Reserved properties are `style`, `styles` and `classes`. It is allowed to use all of them in one Theme.
+Reserved properties are `styles` and `classes`. It is allowed to use all of them in one Theme.
 
 ### Options
 
@@ -20,24 +20,10 @@ Example
 }
 ```
 
-### Style
-
-A `style` property is reserved for style objects. Style object may have any property names and values which can be rendered inline, defined by the [css-style-attr](https://www.w3.org/TR/css-style-attr/) specification.
-
-Example
-
-```json
-{
-  "style": {
-    "padding": "10px",
-    "box-sizing": "border-box"
-  }
-}
-```
-
 ### Styles
 
-A `styles` object is a map of named `style` objects, where `name` is any valid JSON property name and `value` is a `style` object.
+A `styles` object is a map of names and `style` objects, where `name` is any valid JSON property name and `value` is a `style` object.
+Style object may have any property names and values which can be rendered inline, defined by the [css-style-attr](https://www.w3.org/TR/css-style-attr/) specification.
 
 ```json
 {
