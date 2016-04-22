@@ -51,6 +51,11 @@ Example properties a Theme can define:
 1. Shadows
 1. Rounded Corners
 1. Animations
+1. Margins
+1. Paddings
+1. Font
+
+When a property requires component logic to consider it's value, then property needs to be an theme option.
 
 ### Development
 
