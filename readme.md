@@ -31,6 +31,7 @@ An icon button using classes.
     "icon": ".icon-df325"
   }
 }
+```
 
 An icon button using styles.
 
