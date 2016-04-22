@@ -2,9 +2,9 @@
 
 This is a __standard__ for theming of components. Developers and especially publishers of components should use it to unify their theming API across all components.
 
-Currently a number of UI libraries are using different approaches. Some of them are very opinionated and bad by design, others just don't give have the desired flexibility.
+Currently a number of UI libraries are using different approaches. Some of them are very opinionated and bad by design, others just don't have the desired flexibility.
 
-We can differentiate 3 approaches:
+__We can differentiate 3 approaches:___
 
 1. Traditional CSS class names.
 1. Generated CSS class names.
