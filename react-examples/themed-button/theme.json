@@ -1,6 +1,7 @@
 {
   "toggle": false,
-  "style": {
-    "color": "red"
+  "classes": {
+    "button": "button-df3d4",
+    "icon": "icon-j4h4g"
   }
 }

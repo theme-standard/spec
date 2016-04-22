@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default function Button({theme}) {
+export default function Button(props) {
+  const {classes} = props.theme
   return (
-    <button className={theme.button}>
-      <span className={theme.icon}></span>
+    <button className={classes.button}>
+      <span className={classes.icon}></span>
     </button>
   )
 }

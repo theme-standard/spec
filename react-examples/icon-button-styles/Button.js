@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default function Button({theme}) {
+export default function Button(props) {
+  const {styles} = props.theme
   return (
-    <button style={theme.button}>
-      <span style={theme.icon}></span>
+    <button style={styles.button}>
+      <span style={styles.icon}></span>
     </button>
   )
 }
