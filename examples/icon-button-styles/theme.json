@@ -1,0 +1,11 @@
+{
+  "toggle": true,
+  "styles": {
+    "button": {
+      "color": "green"
+    },
+    "icon": {
+      "verticalAlign": "baseline"
+    }
+  }
+}

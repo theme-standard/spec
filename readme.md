@@ -12,47 +12,7 @@ We can differentiate 3 approaches:
 
 In order to allow component authors to use any of this approaches, we need to define a JSON DSL which acts as an interface for the theme.
 
-
-### Theme Examples
-
-A simple button using inline style.
-
-```json
-{
-  "toggle": false,
-  "style": {
-    "color": "red"
-  }
-}
-```
-
-An icon button using classes.
-
-```json
-{
-  "toggle": true,
-  "classes": {
-    "botton": ".button-dk3j4",
-    "icon": ".icon-df325"
-  }
-}
-```
-
-An icon button using styles.
-
-```json
-{
-  "toggle": true,
-  "styles": {
-    "button": {
-      "color": "green"
-    },
-    "icon": {
-      "verticalAlign": "baseline"
-    }
-  }
-}
-```
+[See Examples.](./examples)
 
 ### Definition of Theme
 
