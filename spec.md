@@ -4,7 +4,7 @@ Theme is a [JSON](http://www.json.org/) that defines the look and related functi
 
 ### Reserved Properties
 
-Reserved properties are `style`, `styles` and `classes`.
+Reserved properties are `style`, `styles` and `classes`. It is allowed to use all of them in one Theme.
 
 ### Options
 
