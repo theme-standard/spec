@@ -4,7 +4,7 @@ This is a __standard__ for theming of components. Developers and especially publ
 
 Currently a number of UI libraries are using different approaches. Some of them are very opinionated and bad by design, others just don't have the desired flexibility.
 
-__We can differentiate 3 approaches:___
+__We can differentiate 3 approaches:__
 
 1. Traditional CSS class names.
 1. Generated CSS class names.
