@@ -10,19 +10,40 @@ As a result - we have no consistency across UI libraries in terms of theming. Th
 
 ### Theme Example
 
+A simple button using inline style.
+
 ```json
 {
-  "someOption": "someValue",
+  "toggle": false,
   "style": {
     "color": "red"
-  },
-  "styles": {
-    "myButton": {
-      "color": "green"
-    }
-  },
+  }
+}
+```
+
+An icon button using classes.
+
+```json
+{
+  "toggle": true,
   "classes": {
-    "myButton": ".my-button-dk3j4"
+    "botton": ".button-dk3j4",
+    "icon": ".icon-df325"
+  }
+}
+
+An icon button using styles.
+
+```json
+{
+  "toggle": true,
+  "styles": {
+    "button": {
+      "color": "green"
+    },
+    "icon": {
+      "verticalAlign": "baseline"
+    }
   }
 }
 ```
