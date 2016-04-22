@@ -1,12 +1,17 @@
 ## Standard for Theming
 
-Incompatibility of global CSS Selectors and Components results in various ways we style our Components. It devides our community into 3 categories:
+This is a __standard__ for theming of components. Developers and especially publishers of components should use it to unify their theming API across all components.
+
+Currently a number of UI libraries are using different approaches. Some of them are very opinionated and bad by design.
+
+We can differentiate 3 approaches:
 
 1. Traditional CSS class names.
 1. Generated CSS class names.
 1. Inline Styles.
 
-As a result - we have no consistency across UI libraries in terms of theming. This standard aims to fix it. It is framework agnostic and supports all approaches.
+In order to allow component authors to use any of this approaches, we need to define a JSON DSL which acts as an interface for the theme.
+
 
 ### Theme Examples
 
