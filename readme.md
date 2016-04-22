@@ -46,15 +46,15 @@ A `style` property is reserved for style objects. Style object may have any prop
 
 ### Styles
 
-A `styles` object is a map of named `style` objects, where `name` is any valid JSON property name and `value` is of `style` format.
+A `styles` object is a map of named `style` objects, where `name` is any valid JSON property name and `value` is a `style` object.
 
 ### Classes
 
-A `classes` object is a map of names and class names. Name is any valid property name. Value is a string which is specified by the [html class attribute](https://www.w3.org/TR/2011/WD-html5-20110525/elements.html#classes).
+A `classes` object is a map of names and class names. Name is any valid property name. Value is a set of space-separated tokens representing the various classes. [html class attribute spec](https://www.w3.org/TR/2011/WD-html5-20110525/elements.html#classes).
 
 ### Development
 
-This is an early stage proposal. Feel free to create issues and discribe use cases. Also feel free to make the documentation better.
+This is an early stage proposal. Feel free to create issues and discribe use cases. Also feel free to make the wording better.
 
 
 
