@@ -8,7 +8,7 @@ Incompatibility of global CSS Selectors and Components results in various ways w
 
 As a result - we have no consistency across UI libraries in terms of theming. This standard aims to fix it. It is framework agnostic and supports all approaches.
 
-### Theme Example
+### Theme Examples
 
 A simple button using inline style.
 
