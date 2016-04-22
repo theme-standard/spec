@@ -10,7 +10,7 @@ __We can differentiate 3 approaches:__
 1. Generated CSS class names.
 1. Inline Styles.
 
-In order to allow component authors to use any of this approaches, we need to define a JSON DSL which acts as an interface for the theme.
+In order to allow component authors to use __any__ of this approaches, we need to define a Theme Interface.
 
 - [Spec](./spec.md)
 - [See React Examples.](./react-examples)
