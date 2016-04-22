@@ -12,7 +12,7 @@ We can differentiate 3 approaches:
 
 In order to allow component authors to use any of this approaches, we need to define a JSON DSL which acts as an interface for the theme.
 
-[See Examples.](./examples)
+[See React Examples.](./react-examples)
 
 ### Definition of Theme
 
