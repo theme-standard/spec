@@ -1,0 +1,28 @@
+{
+  "name": "theme-standard",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kof/theme-standard.git"
+  },
+  "description": "Incompatibility of global CSS Selectors and Components results in various ways we style our Components. It devides our community into 3 categories:",
+  "bugs": {
+    "url": "https://github.com/kof/theme-standard/issues"
+  },
+  "homepage": "https://github.com/kof/theme-standard#readme",
+  "main": "readme.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "theme",
+    "CSS",
+    "styling",
+    "components",
+    "standard",
+    "theming",
+    "themable"
+  ],
+  "author": "Oleg Slobodskoi <oleg008@gmail.com>",
+  "license": "MIT"
+}
