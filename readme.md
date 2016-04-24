@@ -13,7 +13,7 @@ __We can differentiate 3 approaches:__
 In order to allow component authors to use __any__ of this approaches, we need to define a Theme Interface.
 
 - [Spec](./spec.md)
-- [See React Examples.](./react-examples)
+- [React Examples.](./react-examples)
 
 ### Theme Styles vs. System Styles
 
@@ -31,7 +31,7 @@ A Theme should define:
 1. Margins
 1. Paddings
 
-When components logic uses some Theme property, it should be a Theme Option.
+When components logic uses some Theme property to modify it's behaviour, it should be a Theme Option.
 
 ### Development
 
