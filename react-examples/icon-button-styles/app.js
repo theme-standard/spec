@@ -1,5 +1,16 @@
 import Button from './Button'
-import theme from './theme.json'
+
+const theme = {
+  toggle: true,
+  styles: {
+    button: {
+      color: 'green'
+    },
+    icon: {
+      verticalAlign: 'baseline'
+    }
+  }
+}
 
 export default function App() {
   return (

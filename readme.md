@@ -31,7 +31,7 @@ A Theme should define:
 1. Margins
 1. Paddings
 
-When components logic uses some Theme property to modify it's behaviour, it should be a Theme Option.
+When components logic uses some Theme property to modify it's behaviour, it should be a Theme [Option](/spec.md#options).
 
 ### Development
 
