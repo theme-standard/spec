@@ -51,9 +51,9 @@ const theme = {
 
 ### Subthemes
 
-A `themes` object is a map of theme names and themes. Theme name can by any valid property name. Value is `theme` object defined on top of this document.
-
 Subthemes are useful when you have a higher order component exposed to the user, but you need to make it's child components themeable as well.
+
+A `themes` object is a map of theme names and themes. Theme name can be any valid property name. Value is `theme` object defined on top of this document.
 
 ```javscript
 const theme = {
